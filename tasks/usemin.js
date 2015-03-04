@@ -112,7 +112,7 @@ module.exports = function (grunt) {
 
     debug('Looking at %s target', this.target);
     var patterns = [];
-    var type = this.target;
+    var type = options.type;
 
     // Check if we have a user defined pattern
     if (options.patterns && options.patterns[this.target]) {
